@@ -1,0 +1,48 @@
+
+
+
+Zuerst: Videos/Tutorials anschauen -> Bsp aus Video nachbauen, Test library anlegen mit Widerständen (HEUTE)
+1.) Download der Altium-Daten (Full release), Wie geht man mit tool um, vllt einfach nur importieren, library erstellen mit Bauteilen .> footprints...googlen
+2.) Zum nachzeichnen (allgemein): DOC -schmeatic, FAB ->schauen ob man das auch aus Kicad rauskriegt
+Gerber -> PCB, BOM -> einkaufen Bauteile, Bestückung (Pick-Place)
+Zum Nachbauen:
+Schaltung und BOM relevant -> alle Bauteile in library anlegen
+
+
+Ziel: Template in Kicad so, wie Altium (Rahmen unten... Format, Lufa electronics..., anassbare Parameter)
+nachbauen im KiCad -> Evaluieren, Vergleich mit Altium, Daisy bar
+
+
+
+
+
+Zerberus: zw. Andriodboard(Display) und Peripherie, versorgt Peripherie (Drucker...)mit Daten und Spannung
+
+Ziel: Testfunktion des Nexusboards -> Testpunkte (wie Flying Probe), so designed, dass jede Leiterbahn abgegriffen, bzw. rückwärts auf Funktion schließen
+Layout für PCB-Board Zerberus (ist ein Exstra-Board zum Testen)
+
+Mo, Fr. Homeoffice, Do. Office neu
+Ziel:: wie ist Kicad aufgebaut, C-R verbinden
+in nächsten 2 Wochen Projekt nachbauen
+
+
+
+Für mich: https://www.youtube.com/playlist?list=PLVo5veMLZ7lU5WHPfrothbizbxSBFPWV7 -> Kicad basics Schematics+pcb
+
+Heute: 
+- Videos fertig schauen
+	Libraries Database: Macht sinn eine Database zu verwenden (Wenn Symbol geändert wird, kann man gespeicherte Daten immer noch aus Database abrufen) und verschiedene Libraries für verschiedene 	Bauteiltypen (R, C...) wegen verschiedenen Eigenschaften -> Update Symbol from libraries, wenn sich was ändert
+	DBeaver für Erstellen der Libraries/Databases
+
+Neu drin: Tear drops -> bessere/stabilere mechan. Eigenschaften
+
+- SQL-Datenbank aufsetzen: https://inventree.org/, https://github.com/sparkmicro/Ki-nTree/#, https://docs.part-db.de/
+https://github.com/Projektanker/kicad-db-lib
+
+
+https://www.connectionstrings.com/ dsn(data source name) brauch kicad, mehr nicht, für Verbindung zu Database
+
+
+
+- Database/Library inkl. Widerständen/Kond. erstellen
+
